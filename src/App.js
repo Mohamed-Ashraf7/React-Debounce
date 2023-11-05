@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import usePrevState from "./hooks/usePrevState";
 function App() {
-  const [term, setTerm] = useState("java");
+  const [term, setTerm] = useState("");
   const [result, setResult] = useState([]);
   // solve one with one effect for debounce tech and the other effect if debounce change fire api  
   // const [debounce, setDebounce] = useState(term);
